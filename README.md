@@ -20,7 +20,7 @@ This repository contains an end-to-end pipeline for classifying text messages as
 ## 📊 Dataset
 
 - The dataset consists of labeled SMS messages (`spam` or `ham`)
-- Text data is **imbalanced**, with more spam messages compared to ham.
+- Text data is **imbalanced**, with more ham messages compared to spam.
 - Common in SMS classification problems.
 
 ---

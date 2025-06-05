@@ -20,7 +20,7 @@ This repository contains an end-to-end pipeline for classifying text messages as
 ## 📊 Dataset
 
 - The dataset consists of labeled SMS messages (`spam` or `ham`)
-- Text data is **imbalanced**, with fewer spam messages compared to ham.
+- Text data is **imbalanced**, with more spam messages compared to ham.
 - Common in SMS classification problems.
 
 ---
@@ -34,7 +34,6 @@ This repository contains an end-to-end pipeline for classifying text messages as
 - Matplotlib / Seaborn (optional: for visualizations)
 - Jupyter Notebook
 
----
 
 ## 📌 Key Steps
 
@@ -43,18 +42,13 @@ This repository contains an end-to-end pipeline for classifying text messages as
 - Lowercasing text
 - Tokenization using NLTK
 - Stop word removal
-- Vectorization (CountVectorizer or TF-IDF)
 
 ### 🔹 Handling Imbalance
 - Analysis of class distribution
 - Techniques like Stratified Split or Class Weights
 
 ### 🔹 ML Models Applied
-- Logistic Regression
 - Naive Bayes
-- Support Vector Machine (SVM)
-- Random Forest
-- (Add any other if applicable)
 
 ---
 
@@ -66,7 +60,6 @@ This repository contains an end-to-end pipeline for classifying text messages as
 | 📉 Precision      | Correct positive predictions (Spam)         |
 | 📊 Recall         | Ability to detect actual spam messages      |
 | 🔁 F1-Score       | Harmonic mean of precision & recall         |
-| 📉 Confusion Matrix | Visual breakdown of predictions          |
 
 Used `classification_report`, `confusion_matrix`, and `f1_score` from `sklearn.metrics`.
 

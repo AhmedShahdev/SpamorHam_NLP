@@ -11,7 +11,7 @@ This repository contains an end-to-end pipeline for classifying text messages as
 - Data cleaning and preprocessing
 - Text vectorization
 - Handling class imbalance
-- Training multiple ML models
+- Training on ML model (Multinomial NB)
 - Evaluating models using various metrics
 - Comparing results
 
@@ -22,6 +22,7 @@ This repository contains an end-to-end pipeline for classifying text messages as
 - The dataset consists of labeled SMS messages (`spam` or `ham`)
 - Text data is **imbalanced**, with more ham messages compared to spam.
 - Common in SMS classification problems.
+- Dataset link : https://www.kaggle.com/code/karnikakapoor/spam-or-ham-sms-classifier/input
 
 ---
 
@@ -42,6 +43,7 @@ This repository contains an end-to-end pipeline for classifying text messages as
 - Lowercasing text
 - Tokenization using NLTK
 - Stop word removal
+- Lemmetization
 
 ### 🔹 Handling Imbalance
 - Analysis of class distribution

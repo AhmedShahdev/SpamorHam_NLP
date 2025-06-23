@@ -71,5 +71,4 @@ Used `classification_report`, `confusion_matrix`, and `f1_score` from `sklearn.m
 
 1. **Clone the repo**  
 ```bash
-git clone https://github.com/yourusername/spam-ham-classification.git
-cd spam-ham-classification
+git clone https://github.com/AhmedShahdev/SpamorHam_NLP/tree/main
